@@ -17,19 +17,19 @@ Contêineres otimizados para aplicações e microserviços. Baseados em imagens 
 
 ---
 
-## 📊 Comparações Visuais
+## 📊 Graficos comparativos
 
 ### Uso de CPU
-![Uso de CPU](uso_de_cpu_(%).png)
+![Uso de CPU](fig1.png)
 
 ### Uso de RAM
-![Uso de RAM](uso_de_ram_(mb).png)
+![Uso de RAM](fig2.png)
 
 ### Tempo de Inicialização
-![Tempo de Inicialização](tempo_de_inicialização_(s).png)
+![Tempo de Inicialização](fig3.png)
 
 ### Isolamento
-![Isolamento](isolamento_(1-10).png)
+![Isolamento](fig4.png)
 
 ---
 
