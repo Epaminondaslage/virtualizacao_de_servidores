@@ -1,4 +1,5 @@
-# 📦 Instalação Detalhada do Proxmox VE do Zero
+# 📦 Instalação Detalhada do Proxmox VE 
+
 
 Este guia descreve detalhadamente como instalar o Proxmox VE (Virtual Environment) em um servidor físico ou máquina dedicada.
 
