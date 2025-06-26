@@ -3,18 +3,21 @@
 
 ## 📑 Índice
 
-1. [O que é Virtualização?](#o-que-é-virtualização)
-2. [Tecnologias Comparadas](#tecnologias-comparadas)
-3. [Tecnologias](#tecnologias)
+1. [Máquinas Virtuais](#maquinas-virtuais)
+2. [O que é Virtualização?](#o-que-é-virtualização)
+3. [Por Que Usar Máquinas Virtuais?](#por-que-usar-maquinas-virtuais?)
+4. [Recursos de Máquinas Virtuais](#recursos-de-maquinas-virtuais)    
+5. [Tecnologias Comparadas](#tecnologias-comparadas)
+6. [Tecnologias](#tecnologias)
     - [Proxmox VE](#proxmox-ve)
     - [VMware ESXi](#vmware-esxi)
     - [VMware Workstation](#vmware-workstation)
     - [VirtualBox](#virtualbox)
     - [Hyper-V](#hyper-v)
-4. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
-5. [Benchmark entre tecnologias](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Benchmark.md)
-6. [Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md)
-7. [Instalação do Proxmox](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Install_Proxmox_VE.md)
+7. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
+9. [Benchmark entre tecnologias](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Benchmark.md)
+10. [Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md)
+11. [Instalação do Proxmox](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Install_Proxmox_VE.md)
 
 ## Máquinas Virtuais
 
@@ -34,7 +37,7 @@ Para ilustrar a necessidade de VMs, pense no desenvolvimento e teste de software
     * Cada desenvolvedor pode preferir um sistema diferente.
     * VMs permitem replicar facilmente esses ambientes em uma única máquina, garantindo consistência e evitando o clássico “funciona na minha máquina”.
     
-### Recursos de Máquinas Virtuais
+## Recursos de Máquinas Virtuais
 
     * Emulam completamente um sistema físico, incluindo CPU, memória, armazenamento e interfaces de rede.
     * Cada VM funciona independentemente no mesmo hardware físico.
