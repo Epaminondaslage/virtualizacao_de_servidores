@@ -51,28 +51,28 @@
 
 ## 💡 Principais Diferenciais
 
-### ✅ **Proxmox VE**
+### **Proxmox VE**
 - Gerenciamento Web intuitivo
 - Suporte a **containers (LXC)** e **KVM**
 - Clustering, replicação e backups integrados
 - Integração com Ceph e ZFS
 
-### ✅ **VMware ESXi**
+### **VMware ESXi**
 - Altíssimo desempenho e estabilidade
 - Recursos como **vMotion**, **vSAN** e integração com vCenter
 - Usado em larga escala por empresas e datacenters
 
-### ✅ **VMware Workstation**
+### **VMware Workstation**
 - Interface amigável para desenvolvimento e testes
 - Integra-se com ESXi para migração de VMs
 - Excelente suporte a redes virtuais complexas
 
-### ✅ **VirtualBox**
+### **VirtualBox**
 - Simples, gratuito e multiplataforma
 - Bom para estudo e desenvolvimento
 - Recursos como snapshots, NAT, Host-only e Bridge
 
-### ✅ **Hyper-V**
+### **Hyper-V**
 - Boa integração com Windows e Active Directory
 - Suporte a virtualização aninhada (nested)
 - Ideal para ambientes corporativos baseados em Microsoft
