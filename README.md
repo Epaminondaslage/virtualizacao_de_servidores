@@ -1,5 +1,5 @@
 
-# 🧠 Comparativo entre Tecnologias de Virtualização
+# Comparativo entre Tecnologias de Virtualização
 
 ## O que é Virtualização?
 
@@ -7,7 +7,7 @@
 
 ---
 
-## ⚙️ Tecnologias Comparadas
+## Tecnologias Comparadas
 
 - **Proxmox VE**
 - **VMware ESXi / Workstation**
@@ -16,7 +16,7 @@
 
 ---
 
-## 🔍 Comparativo entre tecnologias
+## Comparativo entre tecnologias
 
 | Recurso / Tecnologia     | Proxmox VE                     | VMware ESXi                 | VMware Workstation         | VirtualBox                     | Hyper-V                          |
 |--------------------------|--------------------------------|-----------------------------|-----------------------------|----------------------------------|----------------------------------|
@@ -65,7 +65,7 @@
 
 ---
 
-## 🚀 Conclusão
+## Conclusão
 
 - **Proxmox VE**: melhor escolha para servidores e laboratórios.
 - **VMware ESXi**: padrão ouro corporativo, mas requer licenças.
