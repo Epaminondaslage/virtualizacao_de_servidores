@@ -13,7 +13,7 @@
     - [Hyper-V](#hyper-v)
 4. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
 5. [Benchmark entre tecnologias](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Benchmark.md)
-6. dfdff
+6. (Comparativo VM x Containers x Dockers)[https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md]
 
 ## O que é Virtualização?
 
