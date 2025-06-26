@@ -1,7 +1,7 @@
 
 # 📦 Instalação do Proxmox VE
 
-Guia completo para instalar e configurar o Proxmox VE em um servidor físico ou máquina dedicada, incluindo criação de VMs, containers LXC e configuração de rede com IP fixo.
+Guia simplificado para instalar e configurar o Proxmox VE em um servidor físico ou máquina dedicada, incluindo criação de VMs, containers LXC e configuração de rede com IP fixo.
 
 ---
 
@@ -114,12 +114,6 @@ apt update && apt full-upgrade -y
 
 ## ⚙️ Comandos no Proxmox
 
-### Criar VM pela interface web
-
-Passos acessíveis via menu “Create VM”. Veja: [Documentação de VMs - Proxmox](https://pve.proxmox.com/wiki/VM_Management)
-
----
-
 ### Criar VM via terminal
 
 ```bash
@@ -130,18 +124,14 @@ qm set 100 --boot c --bootdisk scsi0
 qm start 100
 ```
 
+[Documentação de VMs - Proxmox](https://pve.proxmox.com/wiki/VM_Management)
+
 ---
 
 ## 📦 Criar um Container LXC no Proxmox (via terminal)
 
 ```bash
-pct create 101 local:vztmpl/debian-11-standard_11.6-1_amd64.tar.zst \
---hostname container-debian \
---cores 2 \
---memory 1024 \
---rootfs local-lvm:8 \
---net0 name=eth0,bridge=vmbr0,ip=dhcp \
---start 1
+pct create 101 local:vztmpl/debian-11-standard_11.6-1_amd64.tar.zst --hostname container-debian --cores 2 --memory 1024 --rootfs local-lvm:8 --net0 name=eth0,bridge=vmbr0,ip=dhcp --start 1
 ```
 
 [Documentação oficial de LXC no Proxmox](https://pve.proxmox.com/wiki/Linux_Container)
@@ -151,13 +141,7 @@ pct create 101 local:vztmpl/debian-11-standard_11.6-1_amd64.tar.zst \
 ## 🌐 Criar Containers LXC com IP Fixo no Proxmox
 
 ```bash
-pct create 102 local:vztmpl/debian-11-standard_11.6-1_amd64.tar.zst \
---hostname container-fixo \
---cores 2 \
---memory 1024 \
---rootfs local-lvm:8 \
---net0 name=eth0,bridge=vmbr0,ip=192.168.1.50/24,gw=192.168.1.1 \
---start 1
+pct create 102 local:vztmpl/debian-11-standard_11.6-1_amd64.tar.zst --hostname container-fixo --cores 2 --memory 1024 --rootfs local-lvm:8 --net0 name=eth0,bridge=vmbr0,ip=192.168.1.50/24,gw=192.168.1.1 --start 1
 ```
 
 Após criação, edite:
