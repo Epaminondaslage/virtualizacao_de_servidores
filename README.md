@@ -5,7 +5,7 @@
 
 1. [O que é Virtualização?](#o-que-é-virtualização)
 2. [Tecnologias Comparadas](#tecnologias-comparadas)
-3. [Principais Características](#principais-caracteristicas)
+3. [Tecnologias](#tecnologias)
     - [Proxmox VE](#proxmox-ve)
     - [VMware ESXi](#vmware-esxi)
     - [VMware Workstation](#vmware-workstation)
@@ -30,7 +30,7 @@
 
 ---
 
-## Principais Características
+## Tecnologias
 
 ### **Proxmox VE**
 
