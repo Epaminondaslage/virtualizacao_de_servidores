@@ -12,7 +12,7 @@
     - [VirtualBox](#virtualbox)
     - [Hyper-V](#hyper-v)
 4. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
-5. [Conclusão](#conclusão)
+5. [Conclusão]()
 
 
 ## O que é Virtualização?
@@ -202,9 +202,7 @@
 | **Licenciamento**        | Open Source (AGPLv3)           | Proprietário (VMware)       | Proprietário (VMware)       | Open Source (GPL)               | Proprietário (Microsoft)         |
 | **Ideal para**           | Servidores, laboratórios, clusters | Empresas, datacenters       | Estações de trabalho        | Estudantes, testes e devs       | Ambientes Microsoft corporativos |
 
----
-
-## Conclusão
+### Resumo:
 
 - **Proxmox VE**: melhor escolha para servidores e laboratórios.
 - **VMware ESXi**: padrão ouro corporativo, mas requer licenças.
