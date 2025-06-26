@@ -29,6 +29,8 @@ A principal motivação para esse crescimento é a adoção da computação em n
 
 **Virtualização** é uma tecnologia que permite criar um ou mais ambientes computacionais isolados — chamados máquinas virtuais (VMs) — que simulam completamente o funcionamento de computadores físicos. Cada **VM** opera como se fosse um sistema independente, com seu próprio sistema operacional, aplicativos e recursos, mesmo estando todas hospedadas em um único hardware físico. Isso possibilita a execução simultânea de diferentes sistemas operacionais e cargas de trabalho de forma eficiente, segura e escalável.
 
+---
+
 ## Por Que Usar Máquinas Virtuais?
 
 Para ilustrar a necessidade de VMs, pense no desenvolvimento e teste de software multiplataforma:
@@ -36,7 +38,9 @@ Para ilustrar a necessidade de VMs, pense no desenvolvimento e teste de software
     * Desenvolvedores e testadores precisam verificar aplicativos em Windows, macOS e Linux.  
     * Cada desenvolvedor pode preferir um sistema diferente.
     * VMs permitem replicar facilmente esses ambientes em uma única máquina, garantindo consistência e evitando o clássico “funciona na minha máquina”.
-    
+
+---
+
 ## Recursos de Máquinas Virtuais
 
     * Emulam completamente um sistema físico, incluindo CPU, memória, armazenamento e interfaces de rede.
