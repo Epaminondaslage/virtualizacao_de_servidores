@@ -1,5 +1,19 @@
-
 # Comparativo entre Tecnologias de Virtualização
+
+
+## 📑 Índice
+
+1. [O que é Virtualização?](#o-que-é-virtualização)
+2. [Tecnologias Comparadas](#tecnologias-comparadas)
+3. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
+4. [Principais Diferenciais](#principais-diferenciais)
+    - [Proxmox VE](#proxmox-ve)
+    - [VMware ESXi](#vmware-esxi)
+    - [VMware Workstation](#vmware-workstation)
+    - [VirtualBox](#virtualbox)
+    - [Hyper-V](#hyper-v)
+5. [Conclusão](#conclusão)
+
 
 ## O que é Virtualização?
 
