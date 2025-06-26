@@ -1,4 +1,4 @@
-# Comparativo: Máquinas Virtuais (VMs) vs Contêineres LXC vs Docker
+# Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker
 
 Comparação entre as principais tecnologias de virtualização e conteinerização, com foco em desempenho, isolamento, uso de recursos e casos de uso.
 
@@ -76,7 +76,7 @@ Docker é uma plataforma de conteinerização voltada para o empacotamento, dist
 
 ---
 
-## ✅ Conclusão
+## ✅ Resumo
 
 - **VMs**: ideais para sistemas completos e múltiplos OS.
 - **LXC**: leve, ideal para múltiplas instâncias Linux.
