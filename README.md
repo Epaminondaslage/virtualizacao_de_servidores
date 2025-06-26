@@ -16,10 +16,31 @@
 6. [Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md)
 7. [Instalação do Proxmox](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Install_Proxmox_VE.md)
 
+## Máquinas Virtuais
+
+Uma máquina virtual (VM) opera exclusivamente em software, em vez de em hardware físico. Ela utiliza software dentro de um computador físico para imitar ou reproduzir as capacidades de outro computador ou sistema operacional. Com organizações buscando otimizar o uso de recursos e acompanhar avanços tecnológicos e demandas dos usuários, a adoção de máquinas virtuais está crescendo significativamente.
+
+A principal motivação para esse crescimento é a adoção da computação em nuvem pelas organizações, visando recursos de TI escaláveis, flexíveis e rentáveis. As máquinas virtuais são fundamentais nesse contexto, oferecendo uma solução sólida para a infraestrutura em nuvem.
+
 ## O que é Virtualização?
 
 **Virtualização** é uma tecnologia que permite criar um ou mais ambientes computacionais isolados — chamados máquinas virtuais (VMs) — que simulam completamente o funcionamento de computadores físicos. Cada **VM** opera como se fosse um sistema independente, com seu próprio sistema operacional, aplicativos e recursos, mesmo estando todas hospedadas em um único hardware físico. Isso possibilita a execução simultânea de diferentes sistemas operacionais e cargas de trabalho de forma eficiente, segura e escalável.
 
+## Por Que Usar Máquinas Virtuais?
+
+Para ilustrar a necessidade de VMs, pense no desenvolvimento e teste de software multiplataforma:
+
+    * Desenvolvedores e testadores precisam verificar aplicativos em Windows, macOS e Linux.  
+    * Cada desenvolvedor pode preferir um sistema diferente.
+    * VMs permitem replicar facilmente esses ambientes em uma única máquina, garantindo consistência e evitando o clássico “funciona na minha máquina”.
+    
+### Recursos de Máquinas Virtuais
+
+    * Emulam completamente um sistema físico, incluindo CPU, memória, armazenamento e interfaces de rede.
+    * Cada VM funciona independentemente no mesmo hardware físico.
+    * A experiência do usuário é próxima à de um sistema instalado diretamente em máquina física.
+    * Sua operação depende de um hipervisor, camada de software que gerencia a comunicação com o hardware e aloca recursos de forma isolada.  
+    
 ---
 
 ## Tecnologias Comparadas
