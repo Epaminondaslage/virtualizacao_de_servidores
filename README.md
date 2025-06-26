@@ -9,7 +9,7 @@ Este documento compara as principais soluções de virtualização disponíveis 
 
 ### O que é Virtualização?
 
-Virtualização é a criação de uma ou mais máquinas virtuais (VMs), que simulam o funcionamento de computadores físicos, permitindo executar múltiplos sistemas operacionais de forma isolada em um único hardware.
+**Virtualização** é uma tecnologia que permite criar um ou mais ambientes computacionais isolados — chamados máquinas virtuais (VMs) — que simulam completamente o funcionamento de computadores físicos. Cada **VM** opera como se fosse um sistema independente, com seu próprio sistema operacional, aplicativos e recursos, mesmo estando todas hospedadas em um único hardware físico. Isso possibilita a execução simultânea de diferentes sistemas operacionais e cargas de trabalho de forma eficiente, segura e escalável.
 
 ---
 
@@ -77,17 +77,8 @@ Virtualização é a criação de uma ou mais máquinas virtuais (VMs), que simu
 - **VMware ESXi**: padrão ouro corporativo, mas requer licenças.
 - **VMware Workstation**: ótimo para desenvolvedores, mas é pago.
 - **VirtualBox**: ideal para iniciantes, estudantes e testes rápidos.
-- **Hyper-V**: útil em ambientes Windows, especialmente para empresas já integradas ao ecossistema Microsoft.
-
----
-
-Se desejar, posso complementar com comparações de desempenho em benchmarks reais ou tutoriais de instalação/configuração de cada uma dessas tecnologias.
 
 # 📊 Benchmark Comparativo de Tecnologias de Virtualização
-
-Este complemento apresenta benchmarks de desempenho em diferentes cenários de uso, comparando as soluções de virtualização mais populares: Proxmox VE, VMware ESXi, VMware Workstation, VirtualBox e Hyper-V.
-
----
 
 ## 🔧 Ambiente de Teste
 
