@@ -1,4 +1,3 @@
-
 # 🧠 Comparativo: Máquinas Virtuais (VMs) vs Contêineres LXC vs Docker
 
 Comparação entre as principais tecnologias de virtualização e conteinerização, com foco em desempenho, isolamento, uso de recursos e casos de uso.
@@ -8,13 +7,42 @@ Comparação entre as principais tecnologias de virtualização e conteinerizaç
 ## 🧩 Conceitos
 
 ### 🖥️ Máquinas Virtuais (VMs)
-Simulam todo o hardware e rodam sistemas operacionais completos de forma isolada.
+
+Máquinas virtuais são ambientes completos que simulam todo o hardware de um computador físico. Cada VM roda seu próprio sistema operacional (chamado de "convidado") de forma totalmente isolada do sistema anfitrião. Para isso, utilizam um **hipervisor**, que pode ser do tipo 1 (bare-metal) ou tipo 2 (sobre um sistema operacional).
+
+**Características principais:**
+- Kernel independente do host
+- Total isolamento entre as VMs e o host
+- Suporte a múltiplos sistemas operacionais (Linux, Windows, BSD etc.)
+- Uso maior de recursos (RAM, CPU, armazenamento)
+- Alta segurança e confiabilidade
+- Ideal para virtualização de servidores, laboratórios complexos, testes com sistemas operacionais distintos
+
+---
 
 ### 📦 Contêineres LXC
-Ambientes Linux isolados que compartilham o kernel com o host. Mais leves que VMs.
+
+LXC (Linux Containers) é uma tecnologia de conteinerização que permite criar ambientes isolados no mesmo kernel do sistema operacional host. Cada contêiner se comporta como um pequeno sistema Linux, mas não possui seu próprio kernel, utilizando o do host.
+
+**Características principais:**
+- Compartilham o kernel do host (apenas Linux)
+- Leves e rápidos para iniciar
+- Isolamento via namespaces e cgroups
+- Excelente desempenho por rodar quase nativamente
+- Ideal para múltiplas instâncias Linux, serviços em lote, ambientes de desenvolvimento, redes simuladas
+
+---
 
 ### 🐳 Docker
-Contêineres otimizados para aplicações e microserviços. Baseados em imagens e camadas.
+
+Docker é uma plataforma de conteinerização voltada para o empacotamento, distribuição e execução de **aplicações** em ambientes isolados. Utiliza um modelo baseado em **imagens em camadas**, o que facilita a reprodutibilidade e o versionamento.
+
+**Características principais:**
+- Voltado para aplicação (não para sistemas completos)
+- Extremamente leve e portátil
+- Integra-se com orquestradores como Kubernetes e Docker Swarm
+- Baseado em imagens, facilmente distribuíveis via Docker Hub
+- Ideal para DevOps, microserviços, CI/CD, ambientes imutáveis
 
 ---
 
@@ -45,24 +73,6 @@ Contêineres otimizados para aplicações e microserviços. Baseados em imagens 
 | Portabilidade             | Moderada                  | Alta                         | Muito alta                   |
 | Compatibilidade           | Windows/Linux/BSD         | Linux                        | Linux/macOS/Windows (via Docker Engine) |
 | Casos de uso              | Virtualização completa    | Sistemas Linux leves         | Microserviços, DevOps        |
-
----
-
-## ⚙️ Comandos no Proxmox
-
-### Criar uma VM:
-```bash
-qm create 100 --name vm-ubuntu --memory 2048 --net0 virtio,bridge=vmbr0
-qm importdisk 100 ubuntu22.qcow2 local-lvm
-qm set 100 --scsihw virtio-scsi-pci --scsi0 local-lvm:vm-100-disk-0
-qm set 100 --boot c --bootdisk scsi0
-qm start 100
-```
-
-### Criar um container LXC:
-```bash
-pct create 101 local:vztmpl/debian-11-standard_11.6-1_amd64.tar.zst --hostname container-debian --cores 2 --memory 1024 --rootfs local-lvm:8 --net0 name=eth0,bridge=vmbr0,ip=dhcp --start 1
-```
 
 ---
 
