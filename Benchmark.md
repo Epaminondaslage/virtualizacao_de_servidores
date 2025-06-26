@@ -1,4 +1,4 @@
-# 📊 Benchmark Comparativo de Tecnologias de Virtualização
+# Benchmark Comparativo de Tecnologias de Virtualização
 
 ## 🔧 Ambiente de Teste
 
