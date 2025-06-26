@@ -14,6 +14,7 @@
 4. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
 5. [Benchmark entre tecnologias](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Benchmark.md)
 6. [Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md)
+7. [Instalação do Proxmox](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Install_Proxmox_VE.md)
 
 ## O que é Virtualização?
 
