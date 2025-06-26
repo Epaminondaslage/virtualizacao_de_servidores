@@ -1,4 +1,4 @@
-# Comparativo entre Tecnologias de Virtualização
+# Tecnologias de Virtualização
 
 
 ## 📑 Índice
