@@ -1,3 +1,4 @@
+
 # 🧠 Comparativo: Máquinas Virtuais (VMs) vs Contêineres LXC vs Docker
 
 Comparação entre as principais tecnologias de virtualização e conteinerização, com foco em desempenho, isolamento, uso de recursos e casos de uso.
@@ -17,19 +18,19 @@ Contêineres otimizados para aplicações e microserviços. Baseados em imagens 
 
 ---
 
-## 📊 Graficos comparativos
+## 📊 Gráficos comparativos
 
 ### Uso de CPU
-![Uso de CPU](fig1.png)
+<img src="fig1.png" width="30%">
 
 ### Uso de RAM
-![Uso de RAM](fig2.png)
+<img src="fig2.png" width="30%">
 
 ### Tempo de Inicialização
-![Tempo de Inicialização](fig3.png)
+<img src="fig3.png" width="30%">
 
 ### Isolamento
-![Isolamento](fig4.png)
+<img src="fig4.png" width="30%">
 
 ---
 
