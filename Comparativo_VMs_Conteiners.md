@@ -1,4 +1,4 @@
-# 🧠 Comparativo: Máquinas Virtuais (VMs) vs Contêineres LXC vs Docker
+# Comparativo: Máquinas Virtuais (VMs) vs Contêineres LXC vs Docker
 
 Comparação entre as principais tecnologias de virtualização e conteinerização, com foco em desempenho, isolamento, uso de recursos e casos de uso.
 
