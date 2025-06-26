@@ -1,3 +1,4 @@
+![logo_proxmox.png](logo_proxmox.png)
 
 # 📦 Instalação do Proxmox VE
 
