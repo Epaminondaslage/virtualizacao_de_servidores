@@ -5,13 +5,13 @@
 
 1. [O que é Virtualização?](#o-que-é-virtualização)
 2. [Tecnologias Comparadas](#tecnologias-comparadas)
-3. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
-4. [Principais Características](#principais-caracteristicas)
+3. [Principais Características](#principais-caracteristicas)
     - [Proxmox VE](#proxmox-ve)
     - [VMware ESXi](#vmware-esxi)
     - [VMware Workstation](#vmware-workstation)
     - [VirtualBox](#virtualbox)
     - [Hyper-V](#hyper-v)
+4. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
 5. [Conclusão](#conclusão)
 
 
@@ -30,27 +30,7 @@
 
 ---
 
-## Comparativo entre tecnologias
-
-| Recurso / Tecnologia     | Proxmox VE                     | VMware ESXi                 | VMware Workstation         | VirtualBox                     | Hyper-V                          |
-|--------------------------|--------------------------------|-----------------------------|-----------------------------|----------------------------------|----------------------------------|
-| **Tipo de Hipervisor**   | Tipo 1 (bare-metal)            | Tipo 1 (bare-metal)         | Tipo 2 (hosted)             | Tipo 2 (hosted)                  | Tipo 1 (bare-metal) ou Tipo 2    |
-| **Base do Sistema**      | Debian Linux                   | Kernel ESXi próprio         | Roda sobre Windows/Linux    | Roda sobre Windows/Linux/macOS  | Roda sobre Windows               |
-| **Interface de Gerência**| Interface Web + CLI (shell)    | Interface Web (vSphere)     | Interface gráfica (GUI)     | Interface gráfica (GUI)         | GUI no Windows / PowerShell      |
-| **Gerenciamento Remoto** | Sim (via navegador)            | Sim (via vSphere)           | Sim (com Workstation Pro)   | Não nativamente                 | Sim (via Remote Manager)         |
-| **Recursos Avançados**   | Snapshots, LXC, Cluster, HA    | Snapshots, vMotion, HA      | Snapshots, redes virtuais   | Snapshots, redes NAT/Bridge     | Snapshots, Live Migration (Server) |
-| **Containers**           | Sim (LXC)                      | Não                         | Não                         | Não                              | Parcial (Windows Server)         |
-| **Compatibilidade SO**   | Linux, Windows, BSD, etc.      | Linux, Windows, BSD, etc.   | Linux, Windows, BSD, etc.   | Linux, Windows, BSD, etc.       | Principalmente Windows/Linux     |
-| **Uso de Recursos**      | Baixo a moderado               | Muito leve e otimizado      | Moderado a alto             | Baixo a moderado                | Moderado                         |
-| **Instalação**           | Instalação direta via ISO      | Instalação direta via ISO   | Instalação como programa    | Instalação como programa        | Ativado no Windows (Pro/Server)  |
-| **Gratuito?**            | Sim (100% funcional)           | Gratuito com limitações     | Não (licença paga)          | Sim (open-source)               | Sim (nas edições compatíveis)    |
-| **Licenciamento**        | Open Source (AGPLv3)           | Proprietário (VMware)       | Proprietário (VMware)       | Open Source (GPL)               | Proprietário (Microsoft)         |
-| **Ideal para**           | Servidores, laboratórios, clusters | Empresas, datacenters       | Estações de trabalho        | Estudantes, testes e devs       | Ambientes Microsoft corporativos |
-
----
-
 ## Principais Características
-
 
 ### **Proxmox VE**
 
@@ -203,6 +183,24 @@
 
 > 🔗 Documentação oficial: [https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/)
 
+---
+
+## Comparativo entre tecnologias
+
+| Recurso / Tecnologia     | Proxmox VE                     | VMware ESXi                 | VMware Workstation         | VirtualBox                     | Hyper-V                          |
+|--------------------------|--------------------------------|-----------------------------|-----------------------------|----------------------------------|----------------------------------|
+| **Tipo de Hipervisor**   | Tipo 1 (bare-metal)            | Tipo 1 (bare-metal)         | Tipo 2 (hosted)             | Tipo 2 (hosted)                  | Tipo 1 (bare-metal) ou Tipo 2    |
+| **Base do Sistema**      | Debian Linux                   | Kernel ESXi próprio         | Roda sobre Windows/Linux    | Roda sobre Windows/Linux/macOS  | Roda sobre Windows               |
+| **Interface de Gerência**| Interface Web + CLI (shell)    | Interface Web (vSphere)     | Interface gráfica (GUI)     | Interface gráfica (GUI)         | GUI no Windows / PowerShell      |
+| **Gerenciamento Remoto** | Sim (via navegador)            | Sim (via vSphere)           | Sim (com Workstation Pro)   | Não nativamente                 | Sim (via Remote Manager)         |
+| **Recursos Avançados**   | Snapshots, LXC, Cluster, HA    | Snapshots, vMotion, HA      | Snapshots, redes virtuais   | Snapshots, redes NAT/Bridge     | Snapshots, Live Migration (Server) |
+| **Containers**           | Sim (LXC)                      | Não                         | Não                         | Não                              | Parcial (Windows Server)         |
+| **Compatibilidade SO**   | Linux, Windows, BSD, etc.      | Linux, Windows, BSD, etc.   | Linux, Windows, BSD, etc.   | Linux, Windows, BSD, etc.       | Principalmente Windows/Linux     |
+| **Uso de Recursos**      | Baixo a moderado               | Muito leve e otimizado      | Moderado a alto             | Baixo a moderado                | Moderado                         |
+| **Instalação**           | Instalação direta via ISO      | Instalação direta via ISO   | Instalação como programa    | Instalação como programa        | Ativado no Windows (Pro/Server)  |
+| **Gratuito?**            | Sim (100% funcional)           | Gratuito com limitações     | Não (licença paga)          | Sim (open-source)               | Sim (nas edições compatíveis)    |
+| **Licenciamento**        | Open Source (AGPLv3)           | Proprietário (VMware)       | Proprietário (VMware)       | Open Source (GPL)               | Proprietário (Microsoft)         |
+| **Ideal para**           | Servidores, laboratórios, clusters | Empresas, datacenters       | Estações de trabalho        | Estudantes, testes e devs       | Ambientes Microsoft corporativos |
 
 ---
 
