@@ -19,11 +19,15 @@
 10. [Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md)
 11. [Instalação do Proxmox](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Install_Proxmox_VE.md)
 
+---
+
 ## Máquinas Virtuais
 
 Uma máquina virtual (VM) opera exclusivamente em software, em vez de em hardware físico. Ela utiliza software dentro de um computador físico para imitar ou reproduzir as capacidades de outro computador ou sistema operacional. Com organizações buscando otimizar o uso de recursos e acompanhar avanços tecnológicos e demandas dos usuários, a adoção de máquinas virtuais está crescendo significativamente.
 
 A principal motivação para esse crescimento é a adoção da computação em nuvem pelas organizações, visando recursos de TI escaláveis, flexíveis e rentáveis. As máquinas virtuais são fundamentais nesse contexto, oferecendo uma solução sólida para a infraestrutura em nuvem.
+
+---
 
 ## O que é Virtualização?
 
