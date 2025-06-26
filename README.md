@@ -4,9 +4,9 @@
 ## 📑 Índice
 
 1. [Máquinas Virtuais](#maquinas-virtuais)
-2. [O que é Virtualização?](#o-que-é-virtualização)
-3. [Por Que Usar Máquinas Virtuais?](#por-que-usar-maquinas-virtuais?)
-4. [Recursos de Máquinas Virtuais](#recursos-de-maquinas-virtuais)    
+2. [O que é Virtualização](#o-que-é-virtualização)
+3. [Por Que Usar Máquinas Virtuais](#por-que-usar-maquinas-virtuais)
+4. [Recursos de Máquinas Virtuais](#recursos-de-maquinas-virtuais)
 5. [Tecnologias Comparadas](#tecnologias-comparadas)
 6. [Tecnologias](#tecnologias)
     - [Proxmox VE](#proxmox-ve)
@@ -15,9 +15,9 @@
     - [VirtualBox](#virtualbox)
     - [Hyper-V](#hyper-v)
 7. [Comparativo entre Tecnologias](#comparativo-entre-tecnologias)
-9. [Benchmark entre tecnologias](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Benchmark.md)
-10. [Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md)
-11. [Instalação do Proxmox](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Install_Proxmox_VE.md)
+8. [Benchmark entre tecnologias](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Benchmark.md)
+9. [Comparativo: Máquinas Virtuais (VMs) x Contêineres LXC x Docker](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Comparativo_VMs_Conteiners.md)
+10. [Instalação do Proxmox](https://github.com/Epaminondaslage/virtualizacao_de_servidores/blob/main/Install_Proxmox_VE.md)
 
 ---
 
@@ -29,13 +29,13 @@ A principal motivação para esse crescimento é a adoção da computação em n
 
 ---
 
-## O que é Virtualização?
+## O que é Virtualização
 
 **Virtualização** é uma tecnologia que permite criar um ou mais ambientes computacionais isolados — chamados máquinas virtuais (VMs) — que simulam completamente o funcionamento de computadores físicos. Cada **VM** opera como se fosse um sistema independente, com seu próprio sistema operacional, aplicativos e recursos, mesmo estando todas hospedadas em um único hardware físico. Isso possibilita a execução simultânea de diferentes sistemas operacionais e cargas de trabalho de forma eficiente, segura e escalável.
 
 ---
 
-## Por Que Usar Máquinas Virtuais?
+## Por Que Usar Máquinas Virtuais
 
 Para ilustrar a necessidade de VMs, pense no desenvolvimento e teste de software multiplataforma:
 
@@ -69,7 +69,7 @@ Para ilustrar a necessidade de VMs, pense no desenvolvimento e teste de software
 
 **Proxmox VE (Virtual Environment)** é uma plataforma de virtualização open source baseada em Debian, que combina virtualização completa com **KVM** e conteinerização leve via **LXC**, oferecendo uma solução robusta para servidores, datacenters e ambientes de teste.
 
-#### Principais Diferenciais:
+#### Principais Diferenciais
 
 - ✅ **Gerenciamento Web Intuitivo**  
   Interface gráfica acessível via navegador (`https://<IP>:8006`) que permite:
@@ -103,7 +103,7 @@ Para ilustrar a necessidade de VMs, pense no desenvolvimento e teste de software
 
 **VMware ESXi** é um hipervisor de tipo 1 (bare-metal) desenvolvido pela VMware, amplamente utilizado em ambientes corporativos e datacenters devido à sua alta estabilidade, desempenho e ampla gama de recursos empresariais.
 
-#### Principais Diferenciais:
+#### Principais Diferenciais
 
 - ⚡ **Altíssimo Desempenho e Estabilidade**
   - Projetado para rodar diretamente no hardware físico, eliminando a necessidade de um sistema operacional host.
