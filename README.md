@@ -1,13 +1,7 @@
 
-# 🧠 Comparativo Técnico de Tecnologias de Virtualização
+# 🧠 Comparativo entre Tecnologias de Virtualização
 
-Este documento compara as principais soluções de virtualização disponíveis atualmente, com foco em aspectos técnicos, desempenho, facilidade de uso e casos de uso ideais.
-
----
-
-## 🧩 Conceitos Fundamentais
-
-### O que é Virtualização?
+## O que é Virtualização?
 
 **Virtualização** é uma tecnologia que permite criar um ou mais ambientes computacionais isolados — chamados máquinas virtuais (VMs) — que simulam completamente o funcionamento de computadores físicos. Cada **VM** opera como se fosse um sistema independente, com seu próprio sistema operacional, aplicativos e recursos, mesmo estando todas hospedadas em um único hardware físico. Isso possibilita a execução simultânea de diferentes sistemas operacionais e cargas de trabalho de forma eficiente, segura e escalável.
 
