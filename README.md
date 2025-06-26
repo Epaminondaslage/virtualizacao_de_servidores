@@ -16,7 +16,7 @@
 
 ---
 
-## 🔍 Comparativo Detalhado
+## 🔍 Comparativo entre tecnologias
 
 | Recurso / Tecnologia     | Proxmox VE                     | VMware ESXi                 | VMware Workstation         | VirtualBox                     | Hyper-V                          |
 |--------------------------|--------------------------------|-----------------------------|-----------------------------|----------------------------------|----------------------------------|
@@ -67,7 +67,7 @@
 
 ## 🚀 Conclusão
 
-- **Proxmox VE**: melhor escolha para servidores e laboratórios profissionais com orçamento limitado.
+- **Proxmox VE**: melhor escolha para servidores e laboratórios.
 - **VMware ESXi**: padrão ouro corporativo, mas requer licenças.
 - **VMware Workstation**: ótimo para desenvolvedores, mas é pago.
 - **VirtualBox**: ideal para iniciantes, estudantes e testes rápidos.
